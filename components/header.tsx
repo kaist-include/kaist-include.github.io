@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import { NextPage } from 'next'
-import Image from 'next/image'
+import Image from './../components/image'
 import Link from 'next/link'
 import Logo from './../public/include-logo-only.png'
 
@@ -18,7 +18,7 @@ const Header: NextPage = () => {
           <Link href='/' passHref>
             <a className='flex items-center'>
               <div className='w-10 h-10 relative inline-block'>
-                <Image src={Logo.src} alt='Include Logo' layout='fill'/>
+                <Image src={Logo} alt='Include Logo' layout='fill'/>
               </div>
               <span className='pl-3 font-semibold font-mono text-3xl text-incl-600'>
                 Include
