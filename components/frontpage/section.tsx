@@ -7,9 +7,9 @@ interface Props {
 
 const Section: NextPage<Props> = (prop) => {
   return (
-    <p className='text-lg ml-2 text-gray-600 mb-6'>
+    <div className='text-lg ml-2 text-gray-600 mb-6'>
       {prop.children}
-    </p>
+    </div>
   )
 }
 
