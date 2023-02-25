@@ -1,6 +1,6 @@
 
-const staff = '2022 회장 김동영'
-const staffMail = 'kingdy2002@kaist.ac.kr'
+const staff = '2023 회장 권혁빈'
+const staffMail = 'ghj72111@kaist.ac.kr'
 
 const github = 'https://github.com/kaist-include/'
 
@@ -8,7 +8,7 @@ const github = 'https://github.com/kaist-include/'
 // string: recruiting link
 const recruit: (null | string) = 
 //  null
-  'https://docs.google.com/forms/d/e/1FAIpQLSfHXbeee_eHX4_UY4u1fsBM7fiMvi8MXDX2HzSWQHqxKUB53g/viewform?usp=sf_link'
+  'https://forms.gle/wdKPXScBB7Yq2Z4q9'
 
 ////////////////////////////////////////
 
