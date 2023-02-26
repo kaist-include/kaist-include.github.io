@@ -43,7 +43,7 @@ const Index: NextPage = () => {
 
           <div className='py-2' />
           <SectionSubtitle>regular_meeting</SectionSubtitle>
-          매주 수요일 8시에 세미나와 다른 행사 등의 정모가 있습니다. 비대면으로 ZOOM을 이용하여 진행됩니다. 그 외, 프로젝트와 스터디 등의 활동 공유가 정모와 별개로 프로젝트 별로 진행됩니다.
+          매주 수요일 8시에 세미나와 다른 행사 등의 정모가 있습니다. 태울관 동아리방에서 진행됩니다. 그 외, 프로젝트와 스터디 등의 활동 공유가 정모와 별개로 프로젝트 별로 진행됩니다.
 
         </Section>
         <hr className='border-incl-200 max-w-2xl mx-auto my-3' />
