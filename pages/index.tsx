@@ -55,7 +55,6 @@ const Index: NextPage = () => {
             </Section>
             :
             <Section>
-              2024 화이팅!
               동아리에서 인공지능에 관심이 있는 학우들을 모집합니다!
               부담 없이 다음 버튼을 눌러 지원하세요.<br />
               <Link href={Config.recruit} passHref>
