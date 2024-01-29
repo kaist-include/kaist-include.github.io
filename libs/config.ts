@@ -1,5 +1,5 @@
 
-const staff = '2023 회장 권혁빈'
+const staff = '2024 회장 권혁빈'
 const staffMail = 'ghj72111@kaist.ac.kr'
 
 const github = 'https://github.com/kaist-include/'
