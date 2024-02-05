@@ -1,6 +1,6 @@
 
 const staff = '2024 회장 김중현'
-const staffMail = 'ghj72111@kaist.ac.kr'
+const staffMail = 'dit521@kaist.ac.kr'
 
 const github = 'https://github.com/kaist-include/'
 
