@@ -8,7 +8,7 @@ const github = 'https://github.com/kaist-include/'
 // string: recruiting link
 const recruit: (null | string) = 
 //  null
-  'https://forms.gle/wdKPXScBB7Yq2Z4q9'
+  'https://forms.gle/fsWJ5ZQ4fVvBG42FA'
 
 ////////////////////////////////////////
 
