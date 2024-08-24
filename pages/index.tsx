@@ -6,7 +6,7 @@ import Config from '../libs/config'
 
 import { BsGithub } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
-import { RiNotionFill } from "react-icons/ri";
+import { SiNotion } from "react-icons/si";
 import Section from '../components/frontpage/section'
 import SectionSubtitle from '../components/frontpage/section-subtitle'
 
@@ -31,7 +31,7 @@ const Index: NextPage = () => {
             <a><AiOutlineMail className='inline' /> Mail</a>
           </Link>
           <Link href={'https://include-kaist.notion.site/'} passHref>
-            <a><RiNotionFill className='inline' /> Notion</a>
+            <a><SiNotion className='inline' /> Notion</a>
           </Link>
         </Section>
         <hr className='border-incl-200 max-w-2xl mx-auto my-3' />
