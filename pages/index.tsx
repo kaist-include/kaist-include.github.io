@@ -30,6 +30,7 @@ const Index: NextPage = () => {
           <Link href={`mailto:${Config.staffMail}`} passHref>
             <a><AiOutlineMail className='inline' /> Mail</a>
           </Link>
+          &nbsp;/&nbsp;
           <Link href={'https://include-kaist.notion.site/'} passHref>
             <a><SiNotion className='inline' /> Notion</a>
           </Link>
