@@ -34,7 +34,7 @@ const Index: NextPage = () => {
         <SectionTitle>activity</SectionTitle>
         <Section>
           <SectionSubtitle>study & competition</SectionSubtitle>
-          지난 년도에는 [Dive into DeepLearning]으로 진행되는 딥러닝 스터디, 신입생이나 인공지능을 잘 모르는 분들을 위해 머신러닝 스터디를 진행했습니다.
+          기본적으로 신입생 및 입문자를 위한 ML 기초 스터디, [Dive into Deeplearning] 기반 DL 스터디, 그리고 논문 스터디를 진행합니다.
           스터디 이외에도 동아리원들끼리 동아리 내부 또는 외부의 공모전이나 대회를 개최하거나 참여합니다.
 
           <div className='py-2' />
@@ -43,7 +43,7 @@ const Index: NextPage = () => {
 
           <div className='py-2' />
           <SectionSubtitle>regular_meeting</SectionSubtitle>
-          매주 수요일 8시에 세미나와 다른 행사 등의 정모가 있습니다. 태울관 세미나실에서 진행됩니다. 그 외, 프로젝트와 스터디 등의 활동 공유가 정모와 별개로 프로젝트 별로 진행됩니다.
+          매주 수요일 7시에 세미나와 다른 행사 등의 정모가 있습니다. 그 외, 프로젝트와 스터디 등의 활동 공유가 정모와 별개로 프로젝트 별로 진행됩니다.
 
         </Section>
         <hr className='border-incl-200 max-w-2xl mx-auto my-3' />
