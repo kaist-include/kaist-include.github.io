@@ -1,6 +1,6 @@
 
-const staff = '2024 회장 한상연'
-const staffMail = 'rowhan@kaist.ac.kr'
+const staff = '2025 회장 한상연'
+const staffMail = 'limepencil@kaist.ac.kr'
 
 const github = 'https://github.com/kaist-include/'
 
@@ -8,7 +8,7 @@ const github = 'https://github.com/kaist-include/'
 // string: recruiting link
 const recruit: (null | string) = 
 //  null
-  'https://forms.gle/xmm85xg9LXZkQLEV9'
+  'https://forms.gle/HajyvSHLqJE9tYo26'
 
 ////////////////////////////////////////
 
