@@ -1,21 +1,18 @@
 
-const staff = '2025 회장 신재영'
+const staff = '신재영'
+const staffYear = '2025'
 const staffMail = 'limepencil@kaist.ac.kr'
-
-const github = 'https://github.com/kaist-include/'
-
-// null: not recruiting
-// string: recruiting link
-const recruit: (null | string) = 
-//  null
-  'https://forms.gle/HajyvSHLqJE9tYo26'
-
-////////////////////////////////////////
+const github = 'https://github.com/include-KAIST'
+const recruit = null
+const year = new Date().getFullYear()
 
 const Config = {
-  staff, staffMail,
+  staff,
+  staffYear,
+  staffMail,
   github,
   recruit,
+  year,
 }
 
 export default Config

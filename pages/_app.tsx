@@ -6,11 +6,11 @@ import Footer from '../components/footer'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className='w-full'>
+    <div className='min-h-screen flex flex-col'>
       <Header />
-      <div id='container'>
+      <main className='flex-1'>
         <Component {...pageProps} />
-      </div>
+      </main>
       <Footer />
     </div>
   )

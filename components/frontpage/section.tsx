@@ -7,7 +7,7 @@ interface Props {
 
 const Section: NextPage<Props> = (prop) => {
   return (
-    <div className='text-lg ml-2 text-gray-600 mb-6'>
+    <div className='text-base font-normal leading-relaxed text-gray-700'>
       {prop.children}
     </div>
   )

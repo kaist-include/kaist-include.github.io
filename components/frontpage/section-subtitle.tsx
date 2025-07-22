@@ -7,10 +7,12 @@ interface Props {
 
 const SectionSubtitle: NextPage<Props> = (prop) => {
   return (
-    <div className='font-mono text-2xl text-incl-400 mt-3 mb-3'>
-      &gt;&nbsp;
-      <span className='text-incl-600'>{prop.children}</span>
-    </div>
+    <h3 className='font-mono text-xl md:text-2xl font-semibold text-gray-800 mb-4 flex items-center gap-2 tracking-wide'>
+      <span className='text-accent font-bold'>&gt;</span>
+      <span className='font-semibold'>
+        {prop.children}
+      </span>
+    </h3>
   )
 }
 
