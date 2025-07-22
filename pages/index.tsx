@@ -23,17 +23,17 @@ const Index: NextPage = () => {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://include-kaist.github.io/" />
+        <meta property="og:url" content="https://include.kaist.ac.kr/" />
         <meta property="og:title" content="Include: 카이스트 AI 학술동아리" />
         <meta property="og:description" content="카이스트의 유일한 인공지능 학술 동아리 - AI 중심의 프로젝트와 학술 활동을 진행하는 KAIST 동아리" />
-        <meta property="og:image" content="https://include-kaist.github.io/meta.png" />
+        <meta property="og:image" content="https://include.kaist.ac.kr/meta.png" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://include-kaist.github.io/" />
+        <meta property="twitter:url" content="https://include.kaist.ac.kr/" />
         <meta property="twitter:title" content="Include: 카이스트 AI 학술동아리" />
         <meta property="twitter:description" content="카이스트의 유일한 인공지능 학술 동아리 - AI 중심의 프로젝트와 학술 활동을 진행하는 KAIST 동아리" />
-        <meta property="twitter:image" content="https://include-kaist.github.io/meta.png" />
+        <meta property="twitter:image" content="https://include.kaist.ac.kr/meta.png" />
         
         <link rel="icon" href="/favicon.ico" />
       </Head>
