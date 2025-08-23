@@ -92,8 +92,8 @@ const Index: NextPage = () => {
         </div>
 
         {/* Scroll indicator */}
-        <div className='absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce'>
-          <div className='flex flex-col items-center gap-2'>
+        <div className='absolute bottom-8 left-0 right-0 z-20 animate-bounce'>
+          <div className='flex flex-col items-center gap-2 mx-auto'>
             <span className='text-accent text-sm font-medium opacity-80'>더 알아보기</span>
             <HiChevronDown className='text-accent text-3xl opacity-60' />
           </div>
@@ -104,11 +104,11 @@ const Index: NextPage = () => {
         {/* About Section */}
         <ScrollAnimation animation='fadeInUp' delay={100}>
           <div className='mb-16'>
-            <SectionTitle>about</SectionTitle>
+            <SectionTitle>About</SectionTitle>
             <div className='section-border'>
               <Section>
                 <p className='text-lg font-normal text-gray-700 leading-relaxed'>
-                  Include는 인공지능 분야에 대해 동아리원끼리 서로 돕고 토의하며 성장해나가는 자유로운 분위기를 추구하는, AI 중심의 프로젝트와 AI 관련 다양한 학술 활동 및 교육을 진행하는 KAIST 동아리입니다.
+                  <span className="text-accent font-semibold">Include</span>는 인공지능 분야에 대해 동아리원끼리 서로 돕고 토의하며 성장해나가는 자유로운 분위기를 추구하는, AI 중심의 프로젝트와 AI 관련 다양한 학술 활동 및 교육을 진행하는 KAIST 동아리입니다. 스터디와 세미나, 프로젝트, 대회 참여를 통해 지식을 나누고 실전 경험을 쌓습니다. 교수님·선배 초청 강연과 외부 교류도 정기적으로 진행합니다.
                 </p>
               </Section>
             </div>
@@ -118,19 +118,29 @@ const Index: NextPage = () => {
         {/* Activity Section */}
         <ScrollAnimation animation='fadeInUp' delay={200}>
           <div className='mb-16'>
-            <SectionTitle>activity</SectionTitle>
+            <SectionTitle>Activity</SectionTitle>
             
             <div className='space-y-12'>
               
               {/* Study & Competition */}
               <ScrollAnimation animation='slideInLeft' delay={100}>
                 <div className='section-border'>
-                  <SectionSubtitle>study & competition</SectionSubtitle>
+                  <SectionSubtitle>Study & Competition</SectionSubtitle>
                   <Section>
-                    <p className='font-normal text-gray-700 leading-relaxed'>
-                      기본적으로 신입생 및 입문자를 위한 ML 기초 스터디, [Dive into Deeplearning] 기반 DL 스터디, 그리고 논문 스터디를 진행합니다.
-                      스터디 이외에도 동아리원들끼리 동아리 내부 또는 외부의 공모전이나 대회를 개최하거나 참여합니다.
+                    <p className='font-normal text-gray-700 leading-relaxed mb-4'>
+                    신입과 입문자를 위한 ML 기초 스터디와 분야별 논문 스터디를 상시 운영합니다. 필요에 따라 동아리 내부 챌린지나 외부 공모전 또는 대회에 팀을 꾸려 참가합니다.
                     </p>
+                    <div className='mt-4'>
+                      <p className='font-medium text-gray-800 mb-2'>지난 스터디 예시:</p>
+                      <ul className='list-disc list-inside space-y-1 text-gray-700 ml-2'>
+                        <li>Computer Vision 세미나 </li>
+                        <li>Natural Language Processing 세미나</li>
+                        <li>딥러닝 스터디</li>
+                        <li>RAG·AI 에이전트 실전 입문</li>
+                        <li>핸즈온 생성형 AI</li>
+                        <li>머신러닝 기초 스터디</li>
+                      </ul>
+                    </div>
                   </Section>
                 </div>
               </ScrollAnimation>
@@ -138,10 +148,10 @@ const Index: NextPage = () => {
               {/* Project */}
               <ScrollAnimation animation='slideInRight' delay={200}>
                 <div className='section-border'>
-                  <SectionSubtitle>project</SectionSubtitle>
+                  <SectionSubtitle>Project</SectionSubtitle>
                   <Section>
                     <p className='font-normal text-gray-700 leading-relaxed'>
-                      진행하고 싶은 프로젝트가 있다면 직접 사람을 모아 진행할 수 있습니다. 정모 시간에 발의를 통해 프로젝트를 홍보해 사람들을 모을 수 있습니다.
+                      관심 주제로 자유롭게 프로젝트를 제안하고 팀원을 모집할 수 있습니다. 정기 모임에서 프로젝트를 소개해 참여자를 모으고, 서비스 개발이나 오픈소스 기여, 연구 실험 등으로 확장합니다.
                     </p>
                   </Section>
                 </div>
@@ -150,10 +160,22 @@ const Index: NextPage = () => {
               {/* Regular Meeting */}
               <ScrollAnimation animation='slideInLeft' delay={300}>
                 <div className='section-border'>
-                  <SectionSubtitle>regular meeting</SectionSubtitle>
+                  <SectionSubtitle>Regular Meeting</SectionSubtitle>
                   <Section>
                     <p className='font-normal text-gray-700 leading-relaxed'>
-                      매주 수요일 7시에 세미나와 다른 행사 등의 정모가 있습니다. 그 외, 프로젝트와 스터디 등의 활동 공유가 정모와 별개로 프로젝트 별로 진행됩니다.
+                      매주 수요일 7시에 정모가 열립니다. 최신 연구 강연, 현직자·선배 특강, 기술 세미나, 연구 공유, 미니 프로젝트 발표, 내부 대회 등의 프로그램을 진행합니다. 스터디·프로젝트 소식 공유도 함께 이뤄집니다.
+                    </p>
+                  </Section>
+                </div>
+              </ScrollAnimation>
+
+              {/* Networking & Events */}
+              <ScrollAnimation animation='slideInRight' delay={200}>
+                <div className='section-border'>
+                  <SectionSubtitle>Networking & Events</SectionSubtitle>
+                  <Section>
+                    <p className='font-normal text-gray-700 leading-relaxed'>
+                      학기별 OT와 MT를 통해 동아리원 간 친목을 다지고, 정기 networking 이벤트로 다양한 배경의 사람들과 교류합니다. 졸업생과의 만남이나 타 대학 AI 동아리와의 연합 활동도 진행할 예정입니다.
                     </p>
                   </Section>
                 </div>
@@ -165,7 +187,7 @@ const Index: NextPage = () => {
         {/* Sponsors Section */}
         <ScrollAnimation animation='fadeInUp' delay={150}>
           <div className='mb-16'>
-            <SectionTitle>sponsors</SectionTitle>
+            <SectionTitle>Sponsors</SectionTitle>
             <div className='section-border'>
               <SponsorGrid sponsors={sponsors} />
             </div>
@@ -175,7 +197,7 @@ const Index: NextPage = () => {
         {/* Recruit Section */}
         <ScrollAnimation animation='fadeInUp' delay={100}>
           <div>
-            <SectionTitle>recruit</SectionTitle>
+            <SectionTitle>Recruit</SectionTitle>
             <div className='section-border'>
               {
                 (Config.recruit === null) ?

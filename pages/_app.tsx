@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
+import RecruitmentPopupContainer from '../components/recruitment-popup'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </main>
       <Footer />
+      <RecruitmentPopupContainer />
     </div>
   )
 }

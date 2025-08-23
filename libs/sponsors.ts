@@ -38,6 +38,24 @@ export const sponsors: Sponsor[] = [
     name: "엘리스",
     logo: "/sponsors/elice.jpg",
     website: "https://elice.io/"
+  },
+  {
+    id: 3,
+    name: "업스테이지",
+    logo: "/sponsors/upstage.jpg",
+    website: "https://upstage.ai/"
+  },
+  {
+    id: 4,
+    name: "구글 학생 홍보대사",
+    logo: "/sponsors/google.png",
+    website: "https://www.google.com/"
+  },
+  {
+    id: 5,
+    name: "BlendEd",
+    logo: "/sponsors/blended.jpg",
+    website: "https://blendedlearn.org/"
   }
 ]
 

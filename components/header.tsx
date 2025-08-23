@@ -3,9 +3,9 @@ import clsx from 'clsx'
 import Link from 'next/link'
 import Image from 'next/image'
 import Config from './../libs/config'
-import { BsGithub, BsInstagram } from 'react-icons/bs'
+import { BsGithub, BsInstagram, BsYoutube } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
-import { SiNotion } from "react-icons/si";
+import { SiNotion, SiMedium } from "react-icons/si";
 
 import SvgLogo from './../public/logo.svg'
 
@@ -40,6 +40,16 @@ const Header: NextPage = () => {
             <Link href={Config.github} passHref>
               <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
                 <BsGithub className='text-xl' />
+              </a>
+            </Link>
+            <Link href={Config.youtube} passHref>
+              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+                <BsYoutube className='text-xl' />
+              </a>
+            </Link>
+            <Link href={Config.medium} passHref>
+              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+                <SiMedium className='text-xl' />
               </a>
             </Link>
             <Link href={`mailto:${Config.staffMail}`} passHref>

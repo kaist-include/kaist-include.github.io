@@ -16,7 +16,7 @@ const SponsorGrid: NextPage<Props> = ({ sponsors }) => {
   return (
     <div>
       <p className='font-normal text-gray-700 leading-relaxed mb-8'>
-        Include을 후원해주시는 기업들을 소개합니다. 이들의 지원 덕분에 더 나은 활동을 펼칠 수 있습니다.
+        Include을 지원해주시는 기업들을 소개합니다. 이들의 지원 덕분에 더 나은 활동을 펼칠 수 있습니다.
       </p>
 
       {sponsors.length > 0 ? (

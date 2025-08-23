@@ -3,9 +3,9 @@ import Config from './../libs/config'
 import Link from 'next/link'
 import Image from 'next/image'
 import SvgLogo from './../public/logo.svg'
-import { BsGithub, BsInstagram } from 'react-icons/bs'
+import { BsGithub, BsInstagram, BsYoutube } from 'react-icons/bs'
 import { AiOutlineMail } from 'react-icons/ai'
-import { SiNotion } from "react-icons/si";
+import { SiNotion, SiMedium } from "react-icons/si";
 
 const Footer: NextPage = () => {
   return (
@@ -21,6 +21,18 @@ const Footer: NextPage = () => {
                 <a className='flex items-center gap-2 text-gray-600 hover:text-accent transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
                   <BsGithub className='text-lg flex-shrink-0' />
                   <span className='text-sm font-medium'>GitHub</span>
+                </a>
+              </Link>
+              <Link href={Config.youtube} passHref>
+                <a className='flex items-center gap-2 text-gray-600 hover:text-accent transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+                  <BsYoutube className='text-lg flex-shrink-0' />
+                  <span className='text-sm font-medium'>YouTube</span>
+                </a>
+              </Link>
+              <Link href={Config.medium} passHref>
+                <a className='flex items-center gap-2 text-gray-600 hover:text-accent transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+                  <SiMedium className='text-lg flex-shrink-0' />
+                  <span className='text-sm font-medium'>Medium</span>
                 </a>
               </Link>
               <Link href={`mailto:${Config.staffMail}`} passHref>

@@ -2,8 +2,11 @@
 const staff = '신재영'
 const staffYear = '2025'
 const staffMail = 'limepencil@kaist.ac.kr'
-const github = 'https://github.com/include-KAIST'
-const recruit = null
+const github = 'https://github.com/kaist-include'
+const recruit = 'https://forms.gle/2Wd8Rj35wPnHLvbP7'
+const youtube = 'https://www.youtube.com/@KaistInclude'
+const medium = 'https://medium.com/kaist-include-ai-club'
+const showRecruitmentPopup = true // Set to true when actively recruiting
 const year = new Date().getFullYear()
 
 const Config = {
@@ -12,6 +15,9 @@ const Config = {
   staffMail,
   github,
   recruit,
+  youtube,
+  medium,
+  showRecruitmentPopup,
   year,
 }
 
