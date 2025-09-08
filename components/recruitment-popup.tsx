@@ -58,11 +58,13 @@ const RecruitmentPopup: React.FC<RecruitmentPopupProps> = ({ isVisible, onClose 
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-3">
-              <Link href={Config.recruit} passHref>
-                <a className="btn-primary text-center flex-1 hover-lift inline-block">
-                  지원하기
-                </a>
-              </Link>
+              {Config.recruit && (
+                <Link href={Config.recruit} passHref>
+                  <a className="btn-primary text-center flex-1 hover-lift inline-block">
+                    지원하기
+                  </a>
+                </Link>
+              )}
               <button
                 onClick={onClose}
                 className="btn-outline flex-1 hover-lift"
