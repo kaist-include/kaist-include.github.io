@@ -73,9 +73,8 @@ const Footer: NextPage = () => {
               <Image
                 src={SvgLogo}
                 alt='Include Logo'
-                layout='fill'
-                objectFit='contain'
-                unoptimized
+                fill
+                style={{ objectFit: 'contain' }}
               />
             </div>
           </div>

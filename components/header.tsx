@@ -25,9 +25,8 @@ const Header: NextPage = () => {
                 <Image
                   src={SvgLogo}
                   alt='Include Logo'
-                  layout='fill'
-                  objectFit='contain'
-                  unoptimized
+                  fill
+                  style={{ objectFit: 'contain' }}
                 />
               </div>
               <span className='pl-3 font-bold font-mono text-2xl text-accent tracking-tight'>

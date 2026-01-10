@@ -20,7 +20,7 @@ const Index: NextPage = () => {
         <meta name='description' content='카이스트 동아리 인클루드 - AI 중심의 프로젝트와 학술 활동을 진행하는 KAIST 동아리' />
         <meta name='keywords' content='카이스트,KAIST,Include,인클루드,AI,인공지능,동아리' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://include.kaist.ac.kr/" />
