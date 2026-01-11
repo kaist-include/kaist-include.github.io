@@ -37,32 +37,32 @@ const Header: NextPage = () => {
 
           <nav className='flex items-center gap-3'>
             <Link href={Config.github} passHref>
-              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift-icon' target='_blank' rel='noopener noreferrer'>
                 <BsGithub className='text-xl' />
               </a>
             </Link>
             <Link href={Config.youtube} passHref>
-              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift-icon' target='_blank' rel='noopener noreferrer'>
                 <BsYoutube className='text-xl' />
               </a>
             </Link>
             <Link href={Config.medium} passHref>
-              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift-icon' target='_blank' rel='noopener noreferrer'>
                 <SiMedium className='text-xl' />
               </a>
             </Link>
             <Link href={`mailto:${Config.staffMail}`} passHref>
-              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift'>
+              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift-icon'>
                 <AiOutlineMail className='text-xl' />
               </a>
             </Link>
             <Link href={'https://include-kaist.notion.site/'} passHref>
-              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift-icon' target='_blank' rel='noopener noreferrer'>
                 <SiNotion className='text-xl' />
               </a>
             </Link>
             <Link href={'https://www.instagram.com/include_kaist/'} passHref>
-              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift' target='_blank' rel='noopener noreferrer'>
+              <a className='p-2 text-accent hover:text-gray-600 transition-colors duration-200 hover-lift-icon' target='_blank' rel='noopener noreferrer'>
                 <BsInstagram className='text-xl' />
               </a>
             </Link>
