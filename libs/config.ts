@@ -1,7 +1,7 @@
 
-const staff = '원대한'
-const staffYear = '2026'
-const staffMail = 'daehan@kaist.ac.kr'
+const staff = '김환'
+const staffYear = '2026F'
+const staffMail = 'hwankim809@kaist.ac.kr'
 const github = 'https://github.com/kaist-include'
 // null if not recruiting
 const recruit = null
